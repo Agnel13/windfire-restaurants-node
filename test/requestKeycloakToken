@@ -1,9 +1,0 @@
-POST http://localhost:8081/realms/windfire-restaurants/protocol/openid-connect/token HTTP/1.1
-content-type: application/x-www-form-urlencoded:
-
-{
-    client_id:<INSERT_REALM_ID>
-    username:<INSERT_REALM_USERNAME>
-    password:<INSERT_REALM_PASSWORD>
-    grant_type:password
-}
