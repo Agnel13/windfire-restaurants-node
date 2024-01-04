@@ -2,9 +2,16 @@ POST http://localhost:8082/restaurants HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Hostaria Vecchio Portico",
-    "city": "Arona",
-    "street": "Piazza del Popolo 12",
-    "zipcode": "21013",
-    "cuisine": "Italian"
+    "name": "Il Barcaiolo",
+    "address": 
+        {
+            "zipCode": "28041",
+            "city": "Arona",
+            "street": "Piazza del Popolo 23"
+        },
+    "cuisine": "Italian",
+    "phone": "",
+    "mobile": "",
+    "email": "",
+    "website": ""
 }

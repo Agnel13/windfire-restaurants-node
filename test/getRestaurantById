@@ -1,0 +1,2 @@
+GET http://localhost:8082/restaurants/656f4e6dcca1db7904887411 HTTP/1.1
+content-type: application/json

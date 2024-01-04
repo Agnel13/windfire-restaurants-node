@@ -3,9 +3,16 @@ content-type: application/json
 authorization: Bearer <INSERT_AUTHENTICATION_TOKEN>
 
 {
-    "name": "Hostaria Vecchio Portico",
-    "city": "Arona",
-    "street": "Piazza del Popolo 12",
-    "zipcode": "21013",
-    "cuisine": "Italian"
+    "name": "La Taverna del Pittore",
+    "address": 
+        {
+            "zipCode": "21013",
+            "city": "Arona",
+            "street": "Piazza del Popolo 39"
+        },
+    "cuisine": "Italian",
+    "phone": "",
+    "mobile": "",
+    "email": "",
+    "website": ""
 }
