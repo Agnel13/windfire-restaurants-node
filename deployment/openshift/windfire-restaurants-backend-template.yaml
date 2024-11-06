@@ -69,14 +69,13 @@ objects:
           image: ${APP_NAME}:latest
           env:
             - name: TIMEOUT
-              value: ${TIMEOUT}
+              value: "${TIMEOUT}"  # Ensure this is a string
             - name: DB_TYPE
               value: ${DB_TYPE}
             #- name: DB_SECRET
             #  valueFrom:
             #      secretKeyRef:
             #        name: ${DB_SECRET}
-            #        key: binding
             - name: DB_URL
               value: ${DB_URL}
             - name: DB_USER
@@ -168,7 +167,7 @@ parameters:
     required: true
   - name: TIMEOUT
     required: true
-    value: 5000
+    value: "5000"  # Ensure this is a string
   - name: DB_TYPE
     required: true
     value: mongodb
